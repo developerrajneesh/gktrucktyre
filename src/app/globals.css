@@ -1,0 +1,216 @@
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(203, 224, 240);
+  position: relative;
+}
+
+.nav-bg {
+  background-color: rgb(143, 206, 255) !important;
+
+}
+
+li {
+  list-style: none;
+}
+
+.Logo {
+  height: 65px;
+  width: 150px;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.card-custom {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 3px 3px 15px gray;
+}
+
+
+
+.floting-whatsapp {
+  position: fixed;
+  top: 250px;
+  width: 55px;
+  height: 70px !important;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ease-in-out;
+}
+
+.floting-whatsapp:hover {
+
+  width: 75px;
+  box-shadow: 2px 5px 10px #161616;
+}
+
+.floting-insta {
+  position: fixed;
+  top: 320px;
+  width: 55px;
+  height: 70px !important;
+  background: linear-gradient(45deg, #f09433, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ease-in-out;
+
+}
+
+.floting-insta:hover {
+  width: 75px;
+  box-shadow: 2px 5px 10px #161616;
+
+}
+
+.floting-call {
+  position: fixed;
+  top: 250px;
+  right: 0;
+  width: 55px;
+  height: 70px !important;
+  background-color: rgb(24, 69, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ease-in-out;
+
+}
+
+.floting-call:hover {
+  width: 75px;
+  box-shadow: 2px 5px 10px #161616;
+
+}
+
+.floting-email {
+  position: fixed;
+  top: 320px;
+  right: 0;
+  width: 55px;
+  height: 70px !important;
+  background-color: rgb(183, 44, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ease-in-out;
+
+}
+
+.floting-email:hover {
+  width: 75px;
+  box-shadow: 2px 5px 10px #161616;
+
+}
+
+.icon {
+  color: white;
+  height: 55px;
+  width: 40px;
+}
+
+.instagram {
+  color: white;
+  height: 55px;
+  width: 40px;
+}
+
+.cr-img {
+  height: 470px;
+}
+
+.canvas-bg {
+  background-color: #a1dcdc !important;
+
+}
+
+.sticky-top {
+
+  top: -1px !important;
+}
+
+.navbar-toggler-icon {}
+
+.testimonial-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+
+}
+
+.campany-box {
+  margin: 10px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 6px 18px -4px rgba(69, 70, 72, 0.36);
+  border-radius: 20px;
+  padding: 16px 4%;
+  flex: 1 1;
+  min-height: 89px;
+}
+
+.slick-list {
+  min-height: 170px;
+}
+
+.styles-module_wrapper__1I_qj {
+  z-index: 9999 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .bottobar-position {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 525px) {
+  .images-img {
+    height: 250px;
+    width: 100%;
+    max-width: 230px;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width:525px) {
+  .cr-img {
+    height: 350px;
+
+  }
+}
+
+@media screen and (max-width:524px) and (min-width:431px) {
+  .cr-img {
+    height: 250px;
+
+  }
+}
+
+@media screen and (max-width:430px) {
+  .cr-img {
+    height: 200px;
+
+  }
+}
