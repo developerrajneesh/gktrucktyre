@@ -8,7 +8,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <div className="bg-dark text-white mt-5 text-cream-color">
-      <foote>
+      <footer>
         <div className=" pt-1">
           <div className="row m-0 mt-2">
             <div className="col-6 col-md-4 footer-items d-flex  justify-content-center">
@@ -105,7 +105,7 @@ function Footer() {
           Copyright © 2023 <b className="me-md-3">GK Truck Tyres</b> Developed
           by Developer Rajneesh
         </p>
-      </foote>
+      </footer>
     </div>
   );
 }
