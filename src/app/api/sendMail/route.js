@@ -10,10 +10,16 @@ export async function POST(req, res) {
     
 
     const transporter = nodemailer.createTransport({
-        service: "gmail",
+      host: "smtpout.secureserver.net",  
+    secure: true,
+    secureConnection: false, // TLS requires secureConnection to be false
+    tls: {
+        ciphers:'SSLv3'
+    },
+    requireTLS:true,
         auth: {
-          user: "developer.rajneeshshukla@gmail.com",
-          pass: "utndluxpgnidcndi",
+          user: "info@gktrucktyres.com.au",
+          pass: "Developer@123",
         },})
 
 
@@ -22,13 +28,13 @@ export async function POST(req, res) {
 
     // Send the email
     const mailOptions = {
-        from: "developer.rajneeshshukla@gmail.com",
+        from: "info@gktrucktyres.com.au",
         to: 'info@gktrucktyres.com.au',
         name: 'Gk Truck Tyres Services',
         subject: "Hi you got a new lead!",
         html: `<h3> Hi you got a new lead! </h3>
                <p>Name: ${name}</p>
-               <p>Ehone: ${phone}</p>
+               <p>Phone: ${phone}</p>
                <p>Email: ${email}</p>
                <p>Message: ${message}</p>
               `,
