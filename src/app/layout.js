@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={"main"}>{children}</body>
 
-<!-- Google tag (gtag.js) -->
+     {/* <!-- Google tag (gtag.js) --> */}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZJS4ME7JS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
