@@ -28,10 +28,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  gtag("event", "page_view", {
-    page_title: document.title,
-    page_path: window.location.pathname,
-  });
+  // gtag("event", "page_view", {
+  //   page_title: document.title,
+  //   page_path: window.location.pathname,
+  // });
   return (
     <html lang="en">
       <body className={"main"}>{children}</body>
