@@ -28,11 +28,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  gtag("event", "page_view", {
+    page_title: document.title,
+    page_path: window.location.pathname,
+  });
   return (
     <html lang="en">
       <body className={"main"}>{children}</body>
 
-{/* <!-- Google tag (gtag.js) --> */}
+      {/* <!-- Google tag (gtag.js) --> */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-9ZJS4ME7JS"
