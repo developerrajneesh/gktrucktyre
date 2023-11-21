@@ -36,17 +36,18 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={"main"}>{children}</body>
 
-      {/* <!-- Google tag (gtag.js) --> */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-9ZJS4ME7JS"
       ></Script>
+      {/* <!-- Google tag (gtag.js) -->
       <Script  id='G-9ZJS4ME7JS'>
      
         window.dataLayer = window.dataLayer || []; function gtag()
         {dataLayer.push(arguments)}
         gtag('js', new Date()); gtag('config', 'G-9ZJS4ME7JS');
       </Script>
+       */}
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
