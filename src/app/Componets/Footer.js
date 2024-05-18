@@ -41,18 +41,18 @@ function Footer() {
                 >
                   {" "}
                   <li className="li-hover">
-                    <FaPhoneAlt className="me-3" size={18} /> +61487420809{" "}
+                    <FaPhoneAlt className="me-3" size={18} /> +61 0426010203{" "}
                   </li>
                 </Link>
                 // <Link
                 //   target="_blank"
                 //   className="text-decoration-none text-light"
-                //   href="tel:+610450146009"
+                //   href="tel:+61487420809"
                 // >
                 //   {" "}
                 //   <li className="li-hover mt-1">
                 //     {" "}
-                //     <FaPhoneAlt className="me-3" size={18} /> +61 0450146009{" "}
+                //     <FaPhoneAlt className="me-3" size={18} />  +61487420809{" "}
                 //   </li>
                 // </Link>
                 <Link
