@@ -58,7 +58,7 @@ function Contact() {
               <div className="col-6 align-self-center pt-4">
                 <h5>Phone Number:</h5>
                 <p className="m-0">+61 426 010 203</p>
-                <p>+61 0450146009</p>
+                <p>+61 487 420 809</p>
                 <h5>Email:</h5>
                 <p> info@gktrucktyres.com.au</p>
                 <h5>Address:</h5>
