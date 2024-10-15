@@ -7,10 +7,12 @@ import Footer from "../Componets/Footer";
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  
   const images = [
     "https://picsum.photos/600/600",
     "https://backend.threefalcons.com/public/gallery/images/0250-min.jpg",
-  ];
+  ];    
 
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
